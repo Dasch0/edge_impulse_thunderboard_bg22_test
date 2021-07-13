@@ -2,7 +2,7 @@
 
 ## Intro
 
-This is a minimal test example of integrating the edge-impulse-sdk C/C++ library with Silicon Labs' Simplicity Studio v5. This project targets the BG22 Thunderboard and any Edge Impulse model based on accelerometer data.
+This is a minimal test example of integrating the edge-impulse-sdk C/C++ library with Silicon Labs' Simplicity Studio v5. This project targets the BG22 Thunderboard and any Edge Impulse models based on accelerometer data.
 
 This project is currently a work in progress with minimal functional testing only.
 

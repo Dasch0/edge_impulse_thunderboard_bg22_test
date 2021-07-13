@@ -10,6 +10,6 @@ This project is currently a work in progress with minimal functional testing onl
 
 Download the latest ```edge_impulse_example.sls``` from the releases tab, and then from Simplicity Studio v5 navigate to ```File->Import->Browse``` to select the project.
 
-To switch out the default model for your own, overwrite the ```edge-impulse-sdk```, ```model-parameters/```, and ```tflite-model``` folders with thefolders of the same name from a generated Edge Impulse C/C++ library.
+To switch out the default model for your own, overwrite ```edge-impulse-sdk/```, ```model-parameters/```, and ```tflite-model/``` with folders of the same name from a generated Edge Impulse C/C++ library.
 
 

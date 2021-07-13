@@ -1,0 +1,36 @@
+# Silicon Labs Project Configuration Tools: slcp, v0, Component selection file.
+project_name: edge_impulse_example
+label: edge_impulse_example
+description: |
+  This example project shows an empty configuration that can be used as a starting point to add components and functionality.
+category: Example|Platform
+package: platform
+quality: production
+source:
+- {path: app.cpp}
+- {path: main.cpp}
+include:
+- path: ''
+  file_list:
+  - {path: app.h}
+sdk: {id: gecko_sdk, version: 3.2.0}
+toolchain_settings: []
+component:
+- {id: sl_system}
+- {id: iostream_retarget_stdio}
+- {id: silabs_core_sl_malloc}
+- instance: [vcom]
+  id: iostream_usart
+- {id: cpp_support}
+- {id: sensor_imu}
+- instance: [sensor]
+  id: i2cspm
+- {id: device_init}
+- {id: brd4184a}
+- {id: app_assert}
+- {id: EFR32BG22C224F512IM40}
+- {id: brd4166a_support}
+define:
+- {name: DEBUG_EFM}
+ui_hints: {}
+
